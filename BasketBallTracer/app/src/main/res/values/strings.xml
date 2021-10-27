@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BasketBall Tracer</string>
+    <string name="titleBBT">BasketBall Tracer</string>
+    <string name="newMatch">Nouveau Match</string>
+    <string name="historical">Historique</string>
+</resources>
