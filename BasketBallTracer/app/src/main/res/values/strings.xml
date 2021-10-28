@@ -6,4 +6,5 @@
     <string name="start">Lancer</string>
     <string name="score">Score</string>
     <string name="match">Match</string>
+    <string name="retour">Retour</string>
 </resources>
