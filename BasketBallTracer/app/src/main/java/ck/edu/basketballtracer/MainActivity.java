@@ -42,4 +42,9 @@ public class MainActivity extends AppCompatActivity {
         Intent monIntent = new Intent(MainActivity.this, newMatch.class);
         startActivity(monIntent);
     }
+
+    public void redirectHistorical(View view){
+        Intent monIntent = new Intent(MainActivity.this, historical.class);
+        startActivity(monIntent);
+    }
 }

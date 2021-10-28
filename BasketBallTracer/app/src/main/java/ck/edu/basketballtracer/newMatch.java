@@ -1,15 +1,20 @@
 package ck.edu.basketballtracer;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class newMatch extends AppCompatActivity {
     private Spinner spinnerModeSuivi;
+    private Button butRetour;
+    private Button butValider;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +30,12 @@ public class newMatch extends AppCompatActivity {
                 equipes);
 
         this.spinnerModeSuivi.setAdapter(adapter);
+
+        butRetour = (Button) findViewById(R.id.buttonRetour);
+        butValider = (Button) findViewById(R.id.buttonValider);
+
+        butRetour.setBackgroundColor(Color.rgb(204,102,51));
+        butValider.setBackgroundColor(Color.rgb(204,102,51));
     }
 
     public void redirectMain(View view){
