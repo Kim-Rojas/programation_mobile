@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue">
+    android:background="@color/pink_red">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="409dp"
-            android:layout_height="680dp"
+            android:layout_height="518dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -92,6 +92,13 @@
                 android:minHeight="48dp"
                 tools:ignore="SpeakableTextPresentCheck" />
 
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="redirectMatch"
+                android:text="Valider" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -100,12 +107,6 @@
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
 
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="redirectMatch"
-                android:text="Valider" />
         </LinearLayout>
 
     </LinearLayout>

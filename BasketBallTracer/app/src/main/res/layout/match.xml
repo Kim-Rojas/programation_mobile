@@ -1,43 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/pink_red">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/match"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            </LinearLayout>
+
         <TextView
             android:id="@+id/titleScore"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/score" />
+            android:text="@string/score"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="130dp">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            >
 
             <TableRow>
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+
                 <TextView
-                    android:id="@+id/eq1"
-                    android:text="124"/>
+                    android:id="@+id/eq"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Equipe"
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:id="@+id/sc1"
-                    android:text="score1"/>
+                    android:id="@+id/sc"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Score"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fautes"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="Nb fautes"
+                    android:textSize="20sp" />
             </TableRow>
 
-            <TableRow>
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+            <TableRow >
                 <TextView
-                    android:id="@+id/eq2"
-                    android:text="124"/>
+                    android:id="@+id/nomEq"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="UOP"
+                    android:textSize="24sp"
+                    />
+
                 <TextView
-                    android:id="@+id/sc2"
-                    android:text="score1"/>
+                    android:id="@+id/scEq"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="24"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/fauteEq"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="2"
+                    android:textSize="24sp" />
             </TableRow>
         </TableLayout>
 
