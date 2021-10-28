@@ -3,4 +3,6 @@
     <string name="titleBBT">BasketBall Tracer</string>
     <string name="newMatch">Nouveau Match</string>
     <string name="historical">Historique</string>
+    <string name="start">Lancer</string>
+    <string name="score">Score</string>
 </resources>

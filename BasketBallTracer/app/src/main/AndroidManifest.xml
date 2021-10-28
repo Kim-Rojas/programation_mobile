@@ -28,6 +28,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name=".match"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.match"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
