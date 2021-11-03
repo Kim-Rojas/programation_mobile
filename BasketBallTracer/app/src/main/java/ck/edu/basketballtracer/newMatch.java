@@ -44,7 +44,7 @@ public class newMatch extends AppCompatActivity {
     }
 
     public void redirectMatch(View view){
-        Intent monIntent = new Intent(newMatch.this, match.class);
+        Intent monIntent = new Intent(newMatch.this, oneTeam.class);
         startActivity(monIntent);
     }
 }
