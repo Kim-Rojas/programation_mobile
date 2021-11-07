@@ -20,5 +20,6 @@
     <string name="mistakes">Fautes :</string>
     <string name="mistakes_button">+ 1</string>
     <string name="timerTitle">Timer :</string>
+    <string name="date">Date</string>
     <string name="timer"></string>
 </resources>
