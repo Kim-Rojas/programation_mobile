@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">BasketBall Tracer</string>
     <string name="titleBBT">BasketBall Tracer</string>
@@ -17,12 +18,9 @@
     <string name="threePoints_button">3 Points</string>
     <string name="twoPoints_button">2 Points</string>
     <string name="lance_franc_button">1 Point</string>
-    <string name="mistakes_button" translatable="false">+ 1</string>
-    <string name="timerTitle" translatable="false">Timer :</string>
-    <string name="date" translatable="false">Date</string>
     <string name="langueFr">Francais</string>
     <string name="langueEn">Anglais</string>
-    <string name="mistakes">Faults</string>
-    <string name="timer" translatable="false">Timer</string>
+    <string name="mistakes">Fautes</string>
     <string name="choose">Choisir</string>
+
 </resources>
